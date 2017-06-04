@@ -1,0 +1,282 @@
+/*
+ * colors:
+ * Yellow: #FCBF10
+ * Blue: #151348
+ * Grey: #58585B
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+section {
+	position: relative;
+	color: #151348;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+	text-align: center;
+	margin: 0;
+	padding: 14em 0 14em 0;
+	cursor: default;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.75em;
+}
+
+#header {
+	background-color: #FCBF10;
+}
+#header h1 {
+	font-size: 30px;
+}
+#header .title-image {
+	width: 600px;
+}
+
+#us {
+	background-color: #FFFFFF;
+}
+
+#photos {
+	background-color: #151348;
+}
+
+#details {
+	background-color: #FFFFFF;
+}
+
+#rsvp {
+	background-color: #58585B;
+}
+
+/* Image */
+
+.image {
+	display: inline-block;
+	border: 0;
+}
+
+.image img {
+	display: block;
+	width: 100%;
+}
+
+.image.featured {
+	display: block;
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+
+.image.fit {
+	display: block;
+	width: 100%;
+}
+
+.image.left {
+	float: left;
+	margin: 0 2em 2em 0;
+}
+
+.image.centered {
+	display: block;
+	margin: 0 0 2em 0;
+}
+
+.image.centered img {
+	margin: 0 auto;
+	width: auto;
+}
+
+/* Containers */
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container.\31 25\25 {
+	width: 100%;
+	max-width: 1425px;
+	min-width: 1140px;
+}
+
+.container.\37 5\25 {
+	width: 855px;
+}
+
+.container.\35 0\25 {
+	width: 570px;
+}
+
+.container.\32 5\25 {
+	width: 285px;
+}
+
+.container {
+	width: 1140px;
+}
+
+/* Box */
+
+	.box {
+		position: relative;
+		margin-top: 9em;
+		margin-bottom: 0;
+	}
+
+		.box :last-child {
+			margin-bottom: 0;
+		}
+
+		.box.style1 {
+			background: #fff;
+			padding: 3em;
+		}
+
+			.box.style1 .image {
+				display: block;
+				position: absolute;
+				top: 0;
+				width: 50%;
+				height: 100%;
+				background: #152E33;
+				overflow: hidden;
+			}
+
+				.box.style1 .image img {
+					position: absolute;
+					top: 0;
+					height: 100%;
+					width: auto;
+				}
+
+			.box.style1 .inner > :last-child {
+				margin: 0;
+			}
+
+			.box.style1.right .image {
+				left: 0;
+			}
+
+				.box.style1.right .image img {
+					right: 0;
+				}
+
+			.box.style1.right .inner {
+				margin-left: 50%;
+				padding-left: 3em;
+			}
+
+			.box.style1.left .image {
+				right: 0;
+			}
+
+				.box.style1.left .image img {
+					left: 0;
+				}
+
+			.box.style1.left .inner {
+				margin-right: 50%;
+				padding-right: 3em;
+			}
+
+		.box.style2 {
+			text-align: center;
+		}
+
+			.box.style2 header {
+				display: inline-block;
+				background: #fff;
+				padding: 2em 3em 2em 3em;
+				margin: 0;
+			}
+
+				.box.style2 header p {
+					padding: 0;
+				}
+
+			.box.style2 .inner {
+				position: relative;
+				padding: 40px 0 0px 0;
+			}
+
+				.box.style2 .inner:after {
+					content: '';
+					display: block;
+					position: absolute;
+					top: 0;
+					left: 50%;
+					height: 100%;
+					border-left: solid 1px #fff;
+				}
+
+				.box.style2 .inner .row {
+					position: relative;
+				}
+
+					.box.style2 .inner .row:before {
+						content: '';
+						display: block;
+						position: absolute;
+						top: 50%;
+						left: 20px;
+						width: calc(100% - 40px);
+						border-bottom: solid 1px #fff;
+					}
+
+				.box.style2 .inner .image {
+					position: relative;
+					z-index: 1;
+					padding: 20px;
+				}
+
+		.box.style3 {
+			background: #fff;
+			padding: 3em;
+		}
+
+			.box.style3 header {
+				text-align: center;
+			}
