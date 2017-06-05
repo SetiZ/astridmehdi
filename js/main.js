@@ -153,7 +153,6 @@
 				usePopupDefaultStyling: false,
 				usePopupCaption: false,
 				popupLoaderText: '',
-				windowMargin: 10,
 				usePopupNav: true
 			});
 
