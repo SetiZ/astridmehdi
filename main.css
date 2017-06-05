@@ -79,6 +79,12 @@ h1, h2, h3, h4, h5, h6 {
 	width: 600px;
 }
 
+@media screen and (max-width: 736px) {
+	#header .title-image {
+		width: 320px;
+	}	
+}
+
 #us {
 	background-color: #FFFFFF;
 }
@@ -2296,8 +2302,8 @@ h1, h2, h3, h4, h5, h6 {
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-color: #fff;
+				/*background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");*/
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
