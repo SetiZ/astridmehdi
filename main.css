@@ -48,6 +48,12 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.hide {
+	display: none;
+}
+.overflow {
+	overflow: hidden;
+}
 
 /* main */
 
