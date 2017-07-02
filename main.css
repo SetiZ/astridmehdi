@@ -1648,7 +1648,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Form */
 
 	form label {
-		display: block;
+		display: inline-block;
 		margin: 0 0 0.5em 0;
 	}
 
@@ -1770,8 +1770,8 @@ h1, h2, h3, h4, h5, h6 {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
-		color: #fff;
+		background: #FCBF10;
+		color: #151348;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
 		text-decoration: none;
@@ -1787,7 +1787,7 @@ h1, h2, h3, h4, h5, h6 {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background: #FCBF10;
 		}
 
 		input[type="button"].style2,
