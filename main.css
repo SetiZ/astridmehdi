@@ -55,6 +55,20 @@ body {
 	overflow: hidden;
 }
 
+.onecol {
+    /*width: 600px;*/
+    height: auto;
+    /*float: left;*/
+    margin: 0 10px;
+}
+
+.twocol {
+    width: 48%;
+    height: auto;
+    float: left;
+    margin: 0 10px;
+}
+
 /* main */
 
 section {
@@ -1817,19 +1831,19 @@ h1, h2, h3, h4, h5, h6 {
 /* Box */
 
 	.box {
-		position: relative;
-		margin-top: 9em;
+		/*position: relative;*/
+		margin-top: 0;
 		margin-bottom: 0;
 	}
 
-		.box:after {
+		/*.box:after {
 			content: '';
 			display: block;
 			position: absolute;
 			top: -9em;
 			left: 50%;
 			height: 9em;
-			/*border-left: solid 1px #fff;*/
+			border-left: solid 1px #fff;
 		}
 
 		.box:before {
@@ -1842,8 +1856,8 @@ h1, h2, h3, h4, h5, h6 {
 			top: -4.5em;
 			margin-left: -45px;
 			margin-top: -33px;
-			/*background: url("images/arrow.svg") no-repeat;*/
-		}
+			background: url("images/arrow.svg") no-repeat;
+		}*/
 
 		.box :last-child {
 			margin-bottom: 0;
