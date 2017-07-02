@@ -56,20 +56,6 @@ body {
 	padding-top: 3em;
 }
 
-.onecol {
-    /*width: 600px;*/
-    height: auto;
-    /*float: left;*/
-    margin: 0 10px;
-}
-
-.twocol {
-    width: 48%;
-    height: auto;
-    float: left;
-    margin: 0 10px;
-}
-
 /* main */
 
 section {
@@ -97,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 30px;
 }
 #header .title-image {
-	width: 800px;
+	width: 600px;
 }
 
 @media screen and (max-width: 736px) {
