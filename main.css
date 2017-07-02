@@ -48,11 +48,12 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-.hide {
-	display: none;
+.yellow {
+	color: #FCBF10;
 }
-.overflow {
-	overflow: hidden;
+
+.footer {
+	padding-top: 3em;
 }
 
 .onecol {
@@ -96,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 30px;
 }
 #header .title-image {
-	width: 600px;
+	width: 800px;
 }
 
 @media screen and (max-width: 736px) {
@@ -1865,7 +1866,7 @@ h1, h2, h3, h4, h5, h6 {
 
 		.box.style1 {
 			background: #fff;
-			padding: 3em;
+			/*padding: 3em;*/
 		}
 
 			.box.style1 .image {
