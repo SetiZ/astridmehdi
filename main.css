@@ -1415,7 +1415,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	input, textarea, select {
 		/*font-family: 'Source Sans Pro', sans-serif;*/
-		font-size: 18pt;
+		font-size: 15pt;
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
@@ -1776,7 +1776,7 @@ h1, h2, h3, h4, h5, h6 {
 		cursor: pointer;
 		text-decoration: none;
 		outline: 0;
-		padding: 1em 3em 1em 3em;
+		padding: 0.5em 1.5em;
 		text-align: center;
 		border-radius: 3em;
 		font-weight: 400;
