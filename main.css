@@ -1436,7 +1436,8 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 1.50em;
+		font-weight: 600;
 		letter-spacing: 8px;
 	}
 
@@ -1497,7 +1498,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	header {
-		margin-bottom: 1em;
+		margin-bottom: 3em;
 	}
 
 		header p {
