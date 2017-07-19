@@ -1,0 +1,16 @@
+{  
+  "short_name": "A & M",  
+  "name": "Astrid & Mehdi",  
+  "start_url": "./?utm_source=web_app_manifest",  
+  "icons": [  
+    {  
+      "src": "/assets/icon3.png",  
+      "sizes": "192x192",  
+      "type": "image/png"
+    }
+  ],  
+  "background_color": "#FAFAFA",
+  "theme_color": "#FCBF10", 
+  "display": "standalone",
+  "orientation": "portrait"  
+}
