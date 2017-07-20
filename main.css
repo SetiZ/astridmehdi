@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 736px) {
 	.photo-us, .asset-footer {
-		max-width: 350px;
+		max-width: 300px;
 	}	
 }
 
@@ -2528,10 +2528,10 @@ h1, h2, h3, h4, h5, h6 {
 				padding: 6em 0 6em 0;
 			}
 
-				#header header {
+				/* #header header {
 					padding-left: 2em;
 					padding-right: 2em;
-				}
+				} */
 
 					#header header h1 {
 						font-size: 1.75em;
